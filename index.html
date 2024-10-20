@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan WEB</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="script.js"></script> -->
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="hero">
+                <h2 class="heading">kubikomid</h2>
+                <p class="sub-heading">Komputer & Laptop</p>
+            </div>
+            <div class="feature feature-1">
+                <h4 class="price">IDR 1.000K </h4>
+                <p class="item">Komputer</p>
+            </div>
+            <div class="feature feature-2">
+                <h4 class="price">IDR 500K</h4>
+                <p class="item">Laptop</p>
+            </div>
+        </header>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="brand">
+                <h1>kubikomid</h1>
+            </div>
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Galery</a></li>
+            </ul>
+        </nav>
+
+        <section class="services">
+            <div class="service">
+                <div class="icon">1</div>
+                <h3>Tutorial</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, earum.</p>
+            </div>
+            <div class="service">
+                <div class="icon">2</div>
+                <h3>Online Course</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, earum.</p>
+            </div>
+            <div class="service">
+                <div class="icon">3</div>
+                <h3>Podcast</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, earum.</p>
+            </div>
+            <div class="service">
+                <div class="icon">4</div>
+                <h3>March</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, earum.</p>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <h3>Gallery</h3>
+            <img src="1.jpg" alt="">
+            <img src="2.jpg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="2.jpg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="2.jpg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="2.jpg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="2.jpg" alt="">
+        </section>
+
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function () {
+            nav.classList.toggle('slide');
+        });
+    </script>
+
+</body>
+
+</html>
